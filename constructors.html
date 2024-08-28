@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <h1>ECommerce Admin Panel</h1>
+    <form id="product-form">
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="category">Category:</label>
+        <input type="text" id="category" required><br><br>
+
+        <label for="image">Image URL:</label>
+        <input type="url" id="image" required><br><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Unisex">Unisex</option>
+        </select><br><br>
+
+        <label for="sold">Sold:</label>
+        <input type="checkbox" id="sold"><br><br>
+
+        <button type="submit" id="add">Add Product</button>
+    </form>
+
+    <script src="./constructors.js">
+    </script>
+</body>
+</html>
+</body>
+</html>
